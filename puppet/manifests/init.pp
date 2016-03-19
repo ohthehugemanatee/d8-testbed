@@ -1,4 +1,4 @@
-$platform = 'drupal'
+$platform = 'drupal8'
 $host = 'f1dev'
 
 case $::operatingsystem {
