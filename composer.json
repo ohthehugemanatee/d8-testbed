@@ -51,6 +51,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+            "drupal/drupal": {
+                "Permit special characters in database names": "https://www.drupal.org/files/issues/2443839-63.patch"
+            }
         }
     }
 }
